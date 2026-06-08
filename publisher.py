@@ -38,9 +38,9 @@ BROKER = "localhost"
 PORT = 1883
 
 # 设备ID
-# DEVICE_ID = "ev_charge_A01"
+DEVICE_ID = "ev_charge_A01"
 # 测试非法设备
-DEVICE_ID = "hacker001"
+# DEVICE_ID = "hacker001"
 
 # Topic权限隔离
 TOPIC = f"ev/{DEVICE_ID}"
